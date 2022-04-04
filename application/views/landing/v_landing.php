@@ -27,7 +27,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <link rel="stylesheet" href="<?php echo base_url();?>template/adio/css/jquery.mCustomScrollbar.min.css">
 <!-- Tweaks for older IEs-->
 <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-<!-- owl stylesheets --> 
+<!-- owl stylesheets -->
 <link rel="stylesheet" href="<?php echo base_url();?>template/adio/css/owl.carousel.min.css">
 <link rel="stylesheet" href="<?php echo base_url();?>template/adio/css/owl.theme.default.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
@@ -84,13 +84,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                      <div class="row marginii">
                         <div class="col-md-5 col-sm-12">
                            <div class="carousel-sporrt_text ">
-                              <h1 class="banner_taital">Classified Ads</h1>
+                              <h1 class="banner_taital">Ini Kursus</h1>
                     <p class="lorem_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
                     <div class="ads_bt"><a href="#">Ads Now</a></div>
                     <div class="contact_bt"><a href="#">Contact Us</a></div>
                            </div>
                         </div>
-                        <div class="col-md-7 col-sm-12">
+                        <div class="col-md-6 col-sm-12">
                            <div class="img-box">
                               <figure><img src="<?php echo base_url();?>template/adio/images/banner-img1.png" style="max-width: 100%;"/></figure>
                            </div>
