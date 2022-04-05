@@ -10,11 +10,10 @@
                     <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
                         <div class="d-md-flex">
                             <ol class="breadcrumb ms-auto">
-                                <li><a href="#" class="fw-normal">Kursus</a></li>
+                                <li><a href="<?php echo base_url();?>template/admin/" class="fw-normal">Kursus</a></li>
                             </ol>
                             <a href="https://www.wrappixel.com/templates/ampleadmin/" target="_blank"
-                                class="btn btn-danger  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Upgrade
-                                to Pro</a>
+                                class="btn btn-danger  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Upgrade to Pro</a>
                         </div>
                     </div>
                 </div>
@@ -195,7 +194,7 @@
                             <div class="comment-widgets">
                                 <!-- Comment Row -->
                                 <div class="d-flex flex-row comment-row p-3 mt-0">
-                                    <div class="p-2"><img src="plugins/images/users/varun.jpg" alt="user" width="50" class="rounded-circle"></div>
+                                    <div class="p-2"><img src="<?php echo base_url();?>template/admin/plugins/images/users/varun.jpg" alt="user" width="50" class="rounded-circle"></div>
                                     <div class="comment-text ps-2 ps-md-3 w-100">
                                         <h5 class="font-medium">James Anderson</h5>
                                         <span class="mb-3 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry.It has survived not only five centuries. </span>
@@ -208,7 +207,7 @@
                                 </div>
                                 <!-- Comment Row -->
                                 <div class="d-flex flex-row comment-row p-3">
-                                    <div class="p-2"><img src="plugins/images/users/genu.jpg" alt="user" width="50" class="rounded-circle"></div>
+                                    <div class="p-2"><img src="<?php echo base_url();?>template/admin/plugins/images/users/genu.jpg" alt="user" width="50" class="rounded-circle"></div>
                                     <div class="comment-text ps-2 ps-md-3 active w-100">
                                         <h5 class="font-medium">Michael Jorden</h5>
                                         <span class="mb-3 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry.It has survived not only five centuries. </span>
@@ -222,7 +221,7 @@
                                 </div>
                                 <!-- Comment Row -->
                                 <div class="d-flex flex-row comment-row p-3">
-                                    <div class="p-2"><img src="plugins/images/users/ritesh.jpg" alt="user" width="50" class="rounded-circle"></div>
+                                    <div class="p-2"><img src="<?php echo base_url();?>template/admin/plugins/images/users/ritesh.jpg" alt="user" width="50" class="rounded-circle"></div>
                                     <div class="comment-text ps-2 ps-md-3 w-100">
                                         <h5 class="font-medium">Johnathan Doeting</h5>
                                         <span class="mb-3 d-block">Lorem Ipsum is simply dummy text of the printing and type setting industry.It has survived not only five centuries. </span>
@@ -253,8 +252,8 @@
                                                 <i class="far fa-comments text-white"></i>
                                             </button>
                                         </div>
-                                        <a href="javascript:void(0)" class="d-flex align-items-center"><img
-                                                src="plugins/images/users/varun.jpg" alt="user-img" class="img-circle">
+                                        <a href="<?php echo base_url();?>template/admin/javascript:void(0)" class="d-flex align-items-center"><img
+                                                src="<?php echo base_url();?>template/admin/plugins/images/users/varun.jpg" alt="user-img" class="img-circle">
                                             <div class="ms-2">
                                                 <span class="text-dark">Varun Dhavan <small
                                                         class="d-block text-success d-block">online</small></span>
@@ -270,11 +269,10 @@
                                                 <i class="far fa-comments text-white"></i>
                                             </button>
                                         </div>
-                                        <a href="javascript:void(0)" class="d-flex align-items-center"><img
-                                                src="plugins/images/users/genu.jpg" alt="user-img" class="img-circle">
+                                        <a href="<?php echo base_url();?>template/admin/javascript:void(0)" class="d-flex align-items-center"><img
+                                                src="<?php echo base_url();?>template/admin/plugins/images/users/genu.jpg" alt="user-img" class="img-circle">
                                             <div class="ms-2">
-                                                <span class="text-dark">Genelia
-                                                    Deshmukh <small class="d-block text-warning">Away</small></span>
+                                                <span class="text-dark">Genelia Deshmukh <small class="d-block text-warning">Away</small></span>
                                             </div>
                                         </a>
                                     </li>
@@ -287,11 +285,10 @@
                                                 <i class="far fa-comments text-white"></i>
                                             </button>
                                         </div>
-                                        <a href="javascript:void(0)" class="d-flex align-items-center"><img
-                                                src="plugins/images/users/ritesh.jpg" alt="user-img" class="img-circle">
+                                        <a href="<?php echo base_url();?>template/admin/javascript:void(0)" class="d-flex align-items-center"><img
+                                                src="<?php echo base_url();?>template/admin/plugins/images/users/ritesh.jpg" alt="user-img" class="img-circle">
                                             <div class="ms-2">
-                                                <span class="text-dark">Ritesh
-                                                    Deshmukh <small class="d-block text-danger">Busy</small></span>
+                                                <span class="text-dark">Ritesh Deshmukh <small class="d-block text-danger">Busy</small></span>
                                             </div>
                                         </a>
                                     </li>
@@ -304,8 +301,8 @@
                                                 <i class="far fa-comments text-white"></i>
                                             </button>
                                         </div>
-                                        <a href="javascript:void(0)" class="d-flex align-items-center"><img
-                                                src="plugins/images/users/arijit.jpg" alt="user-img" class="img-circle">
+                                        <a href="<?php echo base_url();?>template/admin/javascript:void(0)" class="d-flex align-items-center"><img
+                                                src="<?php echo base_url();?>template/admin/plugins/images/users/arijit.jpg" alt="user-img" class="img-circle">
                                             <div class="ms-2">
                                                 <span class="text-dark">Arijit
                                                     Sinh <small class="d-block text-muted">Offline</small></span>
@@ -321,8 +318,8 @@
                                                 <i class="far fa-comments text-white"></i>
                                             </button>
                                         </div>
-                                        <a href="javascript:void(0)" class="d-flex align-items-center"><img
-                                                src="plugins/images/users/govinda.jpg" alt="user-img"
+                                        <a href="<?php echo base_url();?>template/admin/javascript:void(0)" class="d-flex align-items-center"><img
+                                                src="<?php echo base_url();?>template/admin/plugins/images/users/govinda.jpg" alt="user-img"
                                                 class="img-circle">
                                             <div class="ms-2">
                                                 <span class="text-dark">Govinda
@@ -339,8 +336,8 @@
                                                 <i class="far fa-comments text-white"></i>
                                             </button>
                                         </div>
-                                        <a href="javascript:void(0)" class="d-flex align-items-center"><img
-                                                src="plugins/images/users/hritik.jpg" alt="user-img" class="img-circle">
+                                        <a href="<?php echo base_url();?>template/admin/javascript:void(0)" class="d-flex align-items-center"><img
+                                                src="<?php echo base_url();?>template/admin/plugins/images/users/hritik.jpg" alt="user-img" class="img-circle">
                                             <div class="ms-2">
                                                 <span class="text-dark">John
                                                     Abraham<small class="d-block text-success">online</small></span>

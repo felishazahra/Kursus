@@ -22,4 +22,5 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link rel="stylesheet" href="<?php echo base_url();?>template/admin/plugins/bower_components/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.css">
     <!-- Custom CSS -->
     <link href="<?php echo base_url();?>template/admin/css/style.min.css" rel="stylesheet">
+    
 </head>
