@@ -12,7 +12,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 body{
 	font-family: sans-serif;
-	background: #000000;
+	background: #C0C0C0;
 }
  
 h1{
@@ -29,7 +29,7 @@ h1{
  
 .kotak_login{
 	width: 350px;
-	background: silver;
+	background: white;
 	/*meletakkan form ke tengah*/
 	margin: 80px auto;
 	padding: 30px 20px;
@@ -49,7 +49,7 @@ label{
 }
  
 .tombol_login{
-	background: #46de4b;
+	background: #000000;
 	color: white;
 	font-size: 11pt;
 	width: 100%;
@@ -68,21 +68,21 @@ label{
 <body>
 
 <div class="kotak_login">
-		<p class="tulisan_login">Silahkan login</p>
+		<p class="tulisan_login">Login</p>
  
 		<form>
-			<label>Username</label>
-			<input type="text" name="username" class="form_login" placeholder="Username atau email ..">
+			<label>Email</label>
+			<input type="text" name="email" class="form_login" placeholder="Email">
  
 			<label>Password</label>
-			<input type="text" name="password" class="form_login" placeholder="Password ..">
+			<input type="text" name="password" class="form_login" placeholder="Password">
  
 			<input type="submit" class="tombol_login" value="LOGIN">
  
 			<br/>
 			<br/>
 			<center>
-				<a class="link" href="https://www.malasngoding.com">kembali</a>
+				<a class="link" href="http://localhost/Kursus/home">kembali</a>
 			</center>
 		</form>
 		
