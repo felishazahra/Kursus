@@ -20,10 +20,10 @@
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url();?>template/admin/basic-table.html"
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url('user');?>"
                                 aria-expanded="false">
-                                <i class="fa fa-table" aria-hidden="true"></i>
-                                <span class="hide-menu">Basic Table</span>
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                <span class="hide-menu">User</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
