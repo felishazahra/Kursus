@@ -67,7 +67,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 				<div class="col-sm-4">
             <ul class="top_button_section">
-               <li><a class="login-bt active" href="#">Login</a></li>
+               <li><a class="login-bt active" href="<?php echo base_url('login');?>">Login</a></li>
                <li><a class="login-bt" href="#">Register</a></li>
                <li class="search"><a href="#"><img src="<?php echo base_url();?>template/adio/images/search-icon.png" alt="#" /></a></li>
             </ul>

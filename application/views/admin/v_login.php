@@ -70,7 +70,7 @@ label{
 <div class="kotak_login">
 		<p class="tulisan_login">Login</p>
  
-		<form>
+		<form method="post" action="<?php echo base_url('login/login_aksi');?>">
 			<label>Email</label>
 			<input type="text" name="email" class="form_login" placeholder="Email">
  

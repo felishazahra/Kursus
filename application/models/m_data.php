@@ -1,6 +1,5 @@
 <?php 
-
-CRUD. 
+ 
 // Sehingga proses pembuatan CRUD menjadi lebih cepat dan efisien.
 class M_data extends CI_Model{
 // FUNGSI CRUD
@@ -24,6 +23,9 @@ $this->db->update($table,$data);
 // fungsi untuk menghapus data dari database
 function delete_data($where,$table){
 $this->db->delete($table,$where);
+}
+function cek_login($table,$where){
+return $this->db->get_where($table,$where);
 }
 // AKHIR FUNGSI CRUD
 }
