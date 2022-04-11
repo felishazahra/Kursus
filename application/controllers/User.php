@@ -29,4 +29,30 @@ class User extends CI_Controller {
 		$this->load->view('admin/v_user',$data);
 		$this->load->view('admin/v_footer');
 	}
+
+	function user_tambah(){
+		$this->load->view('admin/v_header');
+		$this->load->view('admin/v_navbar');
+		$this->load->view('admin/v_sidebar');
+		$this->load->view('admin/v_user_tambah');
+		$this->load->view('admin/v_footer');
+	}
+
+	function aksi_tambah(){
+		$email = $this->input->post('email');
+		$password = $this->input->post('password');
+		$level = $this->input->post('level');
+		
+		$data = array(
+		'username' => $email,
+		'password' => md5($password),
+		'level' => $level
+);
+		// insert data ke database
+		$this->m_data->insert_data($data,'tbl_user');
+
+		// mengalihkan halaman ke halaman data petugas
+		redirect(base_url().'user');
+}
+
 }

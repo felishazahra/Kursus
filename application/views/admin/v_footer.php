@@ -31,6 +31,7 @@
     <script src="<?php echo base_url();?>template/admin/plugins/bower_components/chartist/dist/chartist.min.js"></script>
     <script src="<?php echo base_url();?>template/admin/plugins/bower_components/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
     <script src="<?php echo base_url();?>template/admin/js/pages/dashboards/dashboard1.js"></script>
+    <script src="<?php echo base_url();?>template/admin/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 
 </html>

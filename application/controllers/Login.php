@@ -46,12 +46,12 @@ class Login extends CI_Controller {
 			'status' => 'admin_login'
 			);
 
-			$this->session->set_userdata($data_session);
+		$this->session->set_userdata($data_session);
 			redirect(base_url().'home');
 		}else{
 			redirect(base_url().'login?alert=gagal');
 		}
-	}else{
+		}else{
 		$this->load->view('admin/v_login');
 	}
 	}
