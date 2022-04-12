@@ -137,7 +137,7 @@
                                             <td><?php echo $key->last_login;?></td>
                                             <td><?php echo $key->last_logout;?></td>
                                             <td><a href="" class="btn btn-danger  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Edit</a></td>
-                                            <td><a href="" class="btn btn-info  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Hapus</a></td>
+                                            <td><a href="<?php echo base_url('user/user_hapus/'.$key->id_user);?>" class="btn btn-info  d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Hapus</a></td>
                                         </tr>
                                         <?php
                                         }

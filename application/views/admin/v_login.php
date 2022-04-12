@@ -8,7 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <body>
 
-	<style type="text/css">
+	<style type="text/css" >
 
 body{
 	font-family: sans-serif;
@@ -31,7 +31,8 @@ h1{
 	width: 350px;
 	background: white;\
 	/*meletakkan form ke tengah*/
-	margin: 80px auto;
+	text-align: center;
+	margin: 200px auto;
 	padding: 30px 20px;
 }
  
