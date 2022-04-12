@@ -60,14 +60,55 @@ class User extends CI_Controller {
 		$id_user = $this->uri->segment(3);
 		$where = array(
 		'id_user' => $id_user
-		);
+	);
 
-		// menghapus data petugas dari database sesuai id
+		// menghapus data admin dari database sesuai id
 		$this->m_data->delete_data($where,'tbl_user');
 		
+		// mengalihkan halaman ke halaman data user
+		redirect(base_url().'user');
+	}
+
+	function user_edit(){
+		$id = $this->uri->segment(3);
+		$where = array('id_user' => $id);
+		// mengambil data dari database sesuai id
+		$data['user'] = $this->m_data->edit_data($where,'tbl_user')->row();
+		$this->load->view('admin/v_header');
+		$this->load->view('admin/v_navbar');
+		$this->load->view('admin/v_sidebar');
+		$this->load->view('admin/v_user_edit',$data);
+		$this->load->view('admin/v_footer');
+	}
+
+	function user_simpan_edit(){
+		$id = $this->input->post('id');
+		$username = $this->input->post('email');
+		$password = $this->input->post('password');
+		$level = $this->input->post('level');
+		$where = array(
+		'id_user' => $id
+		);
+		// cek apakah form password di isi atau tidak
+		$data = array();
+		if($password==""){
+		$data = array(
+		'username' => $username,
+		'level' => $level
+		);
+		// update data ke database
+		$this->m_data->update_data($where,$data,'tbl_user');
+	}else{
+		$data = array(
+		'username' => $username,
+		'password' => md5($password),
+		'level' => $level
+		);
+		
+		// update data ke database
+		$this->m_data->update_data($where,$data,'tbl_user');
+	}
 		// mengalihkan halaman ke halaman data petugas
 		redirect(base_url().'user');
-		}
-		// akhir CRUD petugas
-
+	}
 }
