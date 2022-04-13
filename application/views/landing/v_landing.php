@@ -53,11 +53,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                <li class="nav-item active">
                                 <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a> </li>
                                <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a></li>
+                                <a class="nav-link" href="about.html">Grammar</a></li>
                                <li class="nav-item">
-                                <a class="nav-link" href="client.html">Client</a></li>
+                                <a class="nav-link" href="client.html">Reading</a></li>
                                <li class="#" href="#">
-      	                        <a class="nav-link" href="blog.html">Blog</a></li>
+      	                        <a class="nav-link" href="blog.html">Pronountion</a></li>
                                <li class="nav-item" href="#">
       	                        <a class="nav-link" href="contact.html">Contact Us</a></li>
                             </ul>
@@ -84,10 +84,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                      <div class="row marginii">
                         <div class="col-md-5 col-sm-12">
                            <div class="carousel-sporrt_text ">
-                              <h1 class="banner_taital">Ini Kursus</h1>
+                              <h1 class="banner_taital">English Course</h1>
                     <p class="lorem_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-                    <div class="ads_bt"><a href="#">Ads Now</a></div>
-                    <div class="contact_bt"><a href="#">Contact Us</a></div>
                            </div>
                         </div>
                         <div class="col-md-6 col-sm-12">
@@ -98,44 +96,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                   </div>
                </div>
-               <div class="carousel-item">
-                    <div class="container">
-                     <div class="row marginii">
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                           <div class="carousel-sporrt_text ">
-                              <h1 class="banner_taital">Classified Ads</h1>
-                    <p class="lorem_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-                    <div class="ads_bt"><a href="#">Ads Now</a></div>
-                    <div class="contact_bt"><a href="#">Contact Us</a></div>
-                           </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                           <div class="img-box">
-                              <figure><img src="<?php echo base_url();?>template/adio/images/banner-img1.png" style="max-width: 100%;"/></figure>
-                           </div>
-                        </div>
-                    </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                    <div class="container">
-                     <div class="row marginii">
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                           <div class="carousel-sporrt_text ">
-                              <h1 class="banner_taital">Classified Ads</h1>
-                    <p class="lorem_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-                    <div class="ads_bt"><a href="#">Ads Now</a></div>
-                    <div class="contact_bt"><a href="#">Contact Us</a></div>
-                           </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                           <div class="img-box">
-                              <figure><img src="<?php echo base_url();?>template/adio/images/banner-img1.png" style="max-width: 100%;"/></figure>
-                           </div>
-                        </div>
-                    </div>
-                  </div>
-               </div>
+              
+              
             </div>
          </div>
       </section>
@@ -168,16 +130,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="about_section_2 ">
     	<div class="container">
     		<div class="row">
-    			<div class="col-sm-12">
-    				<div class="classified_text">ONE OF THE BEST <span style="color: #c6610f;">CLASSIFIED</span></div>
-    			</div>	
+    				
     		</div>
     		<div class="row front">
     			<div class="col-md-2">
     				<div class="about_img"><img src="<?php echo base_url();?>template/adio/images/img-1.png"></div>
     			</div>
     			<div class="col-md-10">
-    				<h1 class="fron_text"> FRONT END MULTICURRENCY</h1>
+    				<h1 class="fron_text">GRAMMAR</h1>
     				<p class="using_text">using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model</p>
     			</div>
     		</div>
@@ -186,68 +146,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     				<div class="about_img"><img src="<?php echo base_url();?>template/adio/images/img-1.png"></div>
     			</div>
     			<div class="col-md-10">
-    				<h1 class="fron_text"> FRONT END MULTICURRENCY</h1>
+    				<h1 class="fron_text">READING</h1>
     				<p class="using_text">using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model</p>
     			</div>
-    			<div class="red_bt"><a href="#">Read More</a></div>
+    		</div>
+          <div class="row front">
+    			<div class="col-md-2">
+    				<div class="about_img"><img src="<?php echo base_url();?>template/adio/images/img-1.png"></div>
+    			</div>
+    			<div class="col-md-10">
+    				<h1 class="fron_text">PRONOUNCIATION</h1>
+    				<p class="using_text">using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model</p>
+    			</div>
     		</div>
     	</div>
     </div>
 	<!--about section end -->
 	<!--client section start -->
-    <div class="clients_section layout_padding">
-    	<div class="container">
-    		<div class="row">
-    		    <div class="col-sm-12">
-    			    <div class="client_text">OUR CLIENT <span style="color: #c6610f;">REVIEW</span></div>
-    			    <p class="using_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it</p>
-    		    </div>
-    	    </div>
-    	</div>
-    </div>
-    <div class="clients_section_2 layout_padding">
-    	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="container">
-    		<div class="client_img"><img src="<?php echo base_url();?>template/adio/images/img-3.png"></div>
-    		<h1 class="johan_text">JOHN DUE</h1>
-    		<p class="adiser_text">(adiser)</p>
-    		<p class="long_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to</p>
-    	</div>
-    </div>
-    <div class="carousel-item">
-      <div class="container">
-    		<div class="client_img"><img src="<?php echo base_url();?>template/adio/images/img-3.png"></div>
-    		<h1 class="johan_text">JOHN DUE</h1>
-    		<p class="adiser_text">(adiser)</p>
-    		<p class="long_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to</p>
-    	</div>
-    </div>
-    <div class="carousel-item">
-      <div class="container">
-    		<div class="client_img"><img src="<?php echo base_url();?>template/adio/images/img-3.png"></div>
-    		<h1 class="johan_text">JOHN DUE</h1>
-    		<p class="adiser_text">(adiser)</p>
-    		<p class="long_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to</p>
-    	</div>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-    </div>
+    
 	<!--client section end -->
 	<!--footer section start -->
 	<div class="footer_section layout_padding">
@@ -256,15 +172,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			    <div class="col-sm-3">
 				    <div class="footer_contact">Contact Us</div>
 			    </div>
-			    <div class="col-sm-3">
-				    <div class="location_text"><img src="<?php echo base_url();?>template/adio/images/map-icon.png"><span style="padding-left: 10px;">Locations</span></div>
-			    </div>
-			    <div class="col-sm-3">
-			    	<div class="location_text"><img src="<?php echo base_url();?>template/adio/images/call-icon.png"><span style="padding-left: 10px;">Locations</span></div>
-			    </div>
-			    <div class="col-sm-3">
-			    	<div class="location_text"><img src="<?php echo base_url();?>template/adio/images/mail-icon.png"><span style="padding-left: 10px;">Locations</span></div>
-			    </div>
+			  
 		    </div>
 		    <div class="enput_bt">
 		    	<div class="row">
@@ -305,24 +213,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                        </div>
                     </div>
 		    		</div>
-		    		<div class="col-md-6">
-		    			<div class="map_section">
-		                    <div class="row">
-			            <div class="col-sm-12">
-				            <div class="full map_section">
-                               <div id="map"></div>
-                            </div>
-			            </div>
-		            </div>
-	                 </div>
-		    			<h1 class="newsletter_text">Newsletter</h1>
-		    			<div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="ENTER YOUR MAIL" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                       <div class="input-group-append">
-                       <span class="input-group-text" id="basic-addon2">SUBSCRIBE</span>
-                       </div>
-                       </div>
-		    		</div>
+	
 		    	</div>
 		    </div>
 		    <div class="copyright_section">
