@@ -69,9 +69,7 @@
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
                         <li>
-                            <a class="profile-pic" href="<?php echo base_url();?>template/admin/#">
-                                <img src="<?php echo base_url();?>template/admin/plugins/images/users/varun.jpg" alt="user-img" width="36"
-                                    class="img-circle"><span class="text-white font-medium">Steave</span></a>
+                            <a href="<?php echo base_url('user/user_logout');?>" class="btn btn-outline-light ml1">Logout</a>
                         </li>
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
