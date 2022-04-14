@@ -111,17 +111,8 @@ class User extends CI_Controller {
 		// mengalihkan halaman ke halaman data petugas
 		redirect(base_url().'user');
 	}
-<<<<<<< HEAD
 	function user_logout(){
 		$this->session->sess_destroy();
 		redirect(base_url(). 'landing');
 	}
-=======
-
-	function user_logout(){
-		$this->session->sess_destroy();
-		redirect(base_url().'landing');
-	}
-
->>>>>>> f7f5e0b73ea5ff0ed06f1d80c4adaadd43d77108
 }
