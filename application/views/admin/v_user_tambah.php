@@ -111,26 +111,26 @@
                 <!-- ============================================================== -->
                 <div class="row">
 
-<form action="<?php echo base_url('user/aksi_tambah');?>" method="POST">
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted"></small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Level</label>
-    <select class="form-control" name="level" id="exampleFormControlSelect1">
-      <option>Admin</option>
-      <option>Member</option>
-      <option>Operator</option>
-    </select>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+            <form action="<?php echo base_url('user/aksi_tambah');?>" method="POST">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted"></small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Level</label>
+                <select class="form-control" name="level" id="exampleFormControlSelect1">
+                  <option>Admin</option>
+                  <option>Member</option>
+                  <option>Operator</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
                 </div>
                 <!-- ============================================================== -->
                 <!-- End PAge Content -->

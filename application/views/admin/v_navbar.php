@@ -69,8 +69,12 @@
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
                         <li>
+<<<<<<< HEAD
                             <a href="<?php echo base_url('user/user_logout');?>" class="btn btn-outline-light
                             ml<0x02>1">LogOut</a>
+=======
+                            <a href="<?php echo base_url('user/user_logout');?>" class="btn btn-outline-light ml1">Logout</a>
+>>>>>>> f7f5e0b73ea5ff0ed06f1d80c4adaadd43d77108
                         </li>
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
