@@ -41,35 +41,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="col-sm-1">
 					<div class="myicon"><a href="index.html"><img src="<?php echo base_url();?>template/adio/images/myicon.png"></a></div>
 				</div>
-				<div class="col-sm-6">
-					<div class="menu-area">
-                    <nav class="navbar navbar-expand-lg ">
-                        <!-- <a class="navbar-brand" href="#">Menu</a> -->
-                        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fa fa-bars"></i>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto">
-                               <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a> </li>
-                               <li class="nav-item">
-                                <a class="nav-link" href="about.html">Grammar</a></li>
-                               <li class="nav-item">
-                                <a class="nav-link" href="client.html">Reading</a></li>
-                               <li class="#" href="#">
-      	                        <a class="nav-link" href="blog.html">Pronountion</a></li>
-                               <li class="nav-item" href="#">
-      	                        <a class="nav-link" href="contact.html">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-          </div>
-				</div>
-				<div class="col-sm-4">
+                <div class="col-sm-9">
+                <div class="menu-area">
+                <nav class="navbar navbar-expand-lg ">
+                <!-- <a class="navbar-brand" href="#">Menu</a> -->
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                    </button>
             <ul class="top_button_section">
                <li><a class="login-bt active" href="<?php echo base_url('login');?>">Login</a></li>
                <li><a class="login-bt" href="#">Register</a></li>
-               <li class="search"><a href="#"><img src="<?php echo base_url();?>template/adio/images/search-icon.png" alt="#" /></a></li>
             </ul>
 					</div>
 			</div>
@@ -90,7 +71,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                         <div class="col-md-6 col-sm-12">
                            <div class="img-box">
-                              <figure><img src="<?php echo base_url();?>template/adio/images/banner-img1.png" style="max-width: 100%;"/></figure>
+                              <figure><img src="<?php echo base_url();?>template/adio/images/onlinelesson.png" style="max-width: 900%;"/></figure>
                            </div>
                         </div>
                     </div>
@@ -111,22 +92,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</div>
     <!--banner section end -->
 	<!--about section start -->
-    <div class="about_section layout_padding">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-md-6">
-    				<div class="tablet"><img src="<?php echo base_url();?>template/adio/images/tablet-img.png"></div>
-    			</div>
-    			<div class="col-md-6">
-    				<div class="about_taital">
-    					<div class="about_text">About <span style="color: #c6610f;">Us</span></div>
-    					<p class="dolor_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-    					<div class="read_more"><a href="#">Read More</a></div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </div>
     <div class="about_section_2 ">
     	<div class="container">
     		<div class="row">
@@ -155,7 +120,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     				<div class="about_img"><img src="<?php echo base_url();?>template/adio/images/img-1.png"></div>
     			</div>
     			<div class="col-md-10">
-    				<h1 class="fron_text">PRONOUNCIATION</h1>
+    				<h1 class="fron_text">PRONUNCIATION</h1>
     				<p class="using_text">using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model</p>
     			</div>
     		</div>

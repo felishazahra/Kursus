@@ -70,7 +70,7 @@
                         <!-- ============================================================== -->
                         <li>
                             <a href="<?php echo base_url('user/user_logout');?>" class="btn btn-outline-light
-                            ml<0x02>1">LogOut</a>
+                            ml<0x02>1">Logout</a>
                         </li>
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
