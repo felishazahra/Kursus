@@ -34,7 +34,7 @@ class User extends CI_Controller {
 		$this->load->view('layout/v_header');
 		$this->load->view('layout/v_navbar');
 		$this->load->view('layout/v_sidebar');
-		$this->load->view('layout/v_user_tambah');
+		$this->load->view('layout/v_add_user');
 		$this->load->view('layout/v_footer');
 	}
 
