@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class User extends CI_Controller {
+class Program extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -21,12 +21,12 @@ class User extends CI_Controller {
 	public function index()
 	{
 		//mengambil data dari tabel user
-		$data['user']=$this->m_data->get_data('tbl_user')->result();
+		$data['program']=$this->m_data->get_data('program')->result();
 		$dat['judul']='kursus';
 		$this->load->view('layout/v_header');
 		$this->load->view('layout/v_navbar');
 		$this->load->view('layout/v_sidebar');
-		$this->load->view('layout/v_user',$data);
+		$this->load->view('layout/v_program',$data);
 		$this->load->view('layout/v_footer');
 	}
 
@@ -34,25 +34,21 @@ class User extends CI_Controller {
 		$this->load->view('layout/v_header');
 		$this->load->view('layout/v_navbar');
 		$this->load->view('layout/v_sidebar');
-		$this->load->view('layout/v_user_tambah');
+		$this->load->view('layout/v_program_tambah');
 		$this->load->view('layout/v_footer');
 	}
 
 	function aksi_tambah(){
-		$email = $this->input->post('email');
-		$password = $this->input->post('password');
-		$level = $this->input->post('level');
-		
-		$data = array(
-		'username' => $email,
-		'password' => md5($password),
-		'level' => $level
-	);
+		$id = $this->input->post('');
+		$program_kusus = $this->input->post('');
+		$keterangan = $this->input->post('');
+
+
 		// insert data ke database
-		$this->m_data->insert_data($data,'tbl_user');
+		$this->m_data->insert_data($data,'program');
 
 		// mengalihkan halaman ke halaman data petugas
-		redirect(base_url().'user');
+		redirect(base_url().'program');
 	}
 
 	function user_hapus(){
@@ -63,10 +59,10 @@ class User extends CI_Controller {
 	);
 
 		// menghapus data admin dari database sesuai id
-		$this->m_data->delete_data($where,'tbl_user');
+		$this->m_data->delete_data($where,'program');
 		
 		// mengalihkan halaman ke halaman data user
-		redirect(base_url().'user');
+		redirect(base_url().'program');
 	}
 
 	function user_edit(){
