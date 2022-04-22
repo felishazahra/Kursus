@@ -30,7 +30,7 @@ class Program extends CI_Controller {
 		$this->load->view('layout/v_footer');
 	}
 
-	function user_tambah(){
+	function program_tambah(){
 		$this->load->view('layout/v_header');
 		$this->load->view('layout/v_navbar');
 		$this->load->view('layout/v_sidebar');
@@ -50,12 +50,11 @@ class Program extends CI_Controller {
 		// mengalihkan halaman ke halaman data petugas
 		redirect(base_url().'program');
 	}
-
-	function user_hapus(){
+	function program_hapus(){
 		//mendapatkan parameter dari tombol klik
-		$id_user = $this->uri->segment(3);
+		$id = $this->uri->segment(3);
 		$where = array(
-		'id_user' => $id_user
+		'id' => $id
 	);
 
 		// menghapus data admin dari database sesuai id
@@ -65,47 +64,44 @@ class Program extends CI_Controller {
 		redirect(base_url().'program');
 	}
 
-	function user_edit(){
-		$id = $this->uri->segment(3);
-		$where = array('id_user' => $id);
-		// mengambil data dari database sesuai id
-		$data['user'] = $this->m_data->edit_data($where,'tbl_user')->row();
+
+
+	function program_edit(){
 		$this->load->view('layout/v_header');
 		$this->load->view('layout/v_navbar');
 		$this->load->view('layout/v_sidebar');
-		$this->load->view('layout/v_user_edit',$data);
+		$this->load->view('layout/v_program_edit');
 		$this->load->view('layout/v_footer');
 	}
 
-	function user_simpan_edit(){
+	function program_simpan_edit(){
 		$id = $this->input->post('id');
-		$username = $this->input->post('email');
-		$password = $this->input->post('password');
-		$level = $this->input->post('level');
+		$program = $this->input->post('program');
+		$keterangan = $this->input->post('keterangan');
 		$where = array(
-		'id_user' => $id
-		);
-		// cek apakah form password di isi atau tidak
-		$data = array();
-		if($password==""){
-		$data = array(
-		'username' => $username,
-		'level' => $level
-		);
+			'id' => $id
+			);
+			// cek apakah form password di isi atau tidak
+			$data = array();
+			if($id==""){
+			$data = array(
+			'program' => $program,
+			'keterangan' => $keterangan
+			);
 		// update data ke database
-		$this->m_data->update_data($where,$data,'tbl_user');
+		$this->m_data->update_data($where,$data,'program');
 	}else{
 		$data = array(
-		'username' => $username,
-		'password' => md5($password),
-		'level' => $level
+		'id' => $id,
+		'program' => $program,
+		'keterangan' => $keterangan
 		);
 		
 		// update data ke database
-		$this->m_data->update_data($where,$data,'tbl_user');
+		$this->m_data->update_data($where,$data,'program');
 	}
 		// mengalihkan halaman ke halaman data petugas
-		redirect(base_url().'user');
+		redirect(base_url().'program');
 	}
 	function user_logout(){
 		$this->session->sess_destroy();

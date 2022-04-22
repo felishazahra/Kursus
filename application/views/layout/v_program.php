@@ -1,77 +1,80 @@
- <!-- Content Wrapper. Contains page content -->
- <div class="content-wrapper">
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Data Program</h1>
+            <h1>Data Program Kursus</h1>
           </div>
-          <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Data Program</li>
-            </ol>
+          <div class="col-sm-6 ">
+          	<span class="float-sm-right">
+            <a href="<?php echo base_url('Program/program_tambah');?>" class="btn btn-primary"><i class="fas fa-plus-square"></i> Tambah</a> 
+            </span>
           </div>
+          
         </div>
       </div><!-- /.container-fluid -->
     </section>
-              <!-- /.card-header -->
-              <div class="card-body">
-                <table class="table table-bordered">
-                  <thead>
-                    <tr>
-                      <th style="width: 10px">id</th>
-                      <th>Program Kursus</th>
-                      <th>Keteranagan</th>
-                     
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1.</td>
-                      <td>Melatih Skimming</td>
-                      <td>
-                      <p><span>Bertujuan Untuk Mempecepat Dan Mencari Tahu Garis Besar Bacaan. </span></p>
-                      </td>
-                      
-                    </tr>
-                    <tr>
-                      <td>2.</td>
-                      <td></td>
-                      <td>
-                        
-                      </td>
-                      <td><span class=""></span></td>
-                    </tr>
-                    <tr>
-                      <td>3.</td>
-                      <td></td>
-                      <td>
-                       
-                      </td>
-                      <td><span class=""></span></td>
-                    </tr>
-                    <tr>
-                      <td>4.</td>
-                      <td></td>
-                      <td>
-                        
-                      </td>
-                      <td><span class=""></span></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!-- /.card-body -->
-              <div class="card-footer clearfix">
-                <ul class="pagination pagination-sm m-0 float-right">
-                  <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
-                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                  <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- /.card -->
+    <!-- Main content -->
+    <section class="content">
+
+    	      
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+         
+            <!-- /.card-header -->
+            <div class="card-body table-responsive">
+            	<table id="datatabel" class="table table-hover nowrap" style="width: 100%" data-page-length="7">
+	                <thead>
+	                <tr>
+	                  <th>ID</th>
+	                  <th>Program Kursus</th>
+	                  <th>Keterangan</th>
+	                  <th class="no-sort"></th>
+	                
+	                </tr>
+	                </thead>
+	                <tbody>
+	                	<tr>
+	                  <td>1</td>
+	                  <td>Microsoft Word</td>
+	                  <td>Program Kursus yang ditujukan untuk mahir dalam penggunaan perangkat lunak Microsoft Word.</td>
+	                  <td>
+	                  	<form class="form-1" method="POST" action="http://localhost/kursus/Program/program_edit" onsubmit="return confirm('Anda yakin ingin menghapus data ini?')">
+                       			<input type="hidden" name="_method" value="DELETE">                       			<input type="hidden" name="_token" value="YpHo1SWQchGVn9KQbV5BOscUrbUWyzGSyiWEFHaR">	                  			
+                             <a href="<?php echo base_url('Program/program_edit');?>" class="btn btn-danger d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Edit</a></td>
+                             <td><a href="http://localhost/Kursus/program/program_hapus" class="btn btn-info d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Hapus</a></td>	
+                        </form>
+	                  	
+	                  </td>
+	                </tr>
+	               		                <tr>
+	                  <td>2</td>
+	                  <td>Microsoft Excel</td>
+	                  <td>Program Kursus yang ditujukan untuk mahir dalam penggunaan perangkat lunak Microsoft Excel.</td>
+	                  <td>
+	                  	<form class="form-2" method="POST" action="http://localhost/kursus/Program/program_edit" onsubmit="return confirm('Anda yakin ingin menghapus data ini?')">
+                       			<input type="hidden" name="_method" value="DELETE">                       			<input type="hidden" name="_token" value="YpHo1SWQchGVn9KQbV5BOscUrbUWyzGSyiWEFHaR">	                  		
+                             <a href="<?php echo base_url('Program/program_edit');?>" class="btn btn-danger d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Edit</a></td>
+
+                             <td><a href="http://localhost/Kursus/program/program_hapus" class="btn btn-info d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Hapus</a></td>	
+                        </form>
+	                  	
+	                  </td>
+	                </tr>
+	              <tr>
+                <td>3</td>
+	                  <td>Microsoft Powerpoint</td>
+	                  <td>Program Kursus yang ditujukan untuk mahir dalam penggunaan perangkat lunak Microsoft Powerpoint.</td>
+	                  <td>
+	                  	<form class="form-3" method="POST" action="http://localhost/kursus/Program/program" onsubmit="return confirm('Anda yakin ingin menghapus data ini?')">
+                       			<input type="hidden" name="_method" value="DELETE">                       			<input type="hidden" name="_token" value="YpHo1SWQchGVn9KQbV5BOscUrbUWyzGSyiWEFHaR">	                  			
+                             <a href="<?php echo base_url('Program/program_edit');?>" class="btn btn-danger d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Edit</a></td>
+
+                             <td><a href="<?php echo base_url('Program/program_hapus');?>" class="btn btn-info d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Hapus</a></td>
+                        </form>
+	                  	
+	                  </td>
+	                </tr>

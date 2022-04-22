@@ -30,7 +30,7 @@ class Peserta extends CI_Controller {
 		$this->load->view('layout/v_footer');
 	}
 
-	function user_tambah(){
+	function peserta_tambah(){
 		$this->load->view('layout/v_header');
 		$this->load->view('layout/v_navbar');
 		$this->load->view('layout/v_sidebar');
@@ -39,8 +39,9 @@ class Peserta extends CI_Controller {
 	}
 
 	function aksi_tambah(){
-		$id = $this->input->post('');
-		$nama = $this->input->post('');
+		$peserta = $this->input->post('');
+		$alamat = $this->input->post('');
+		$jenis_kelamin = $this->input->post('');
 		$tempat_lahir = $this->input->post('');
         $tanggal_lahir = $this->input->post('');
 
@@ -67,15 +68,15 @@ class Peserta extends CI_Controller {
 		redirect(base_url().'peserta');
 	}
 
-	function user_edit(){
+	function peserta_edit(){
 		$id = $this->uri->segment(3);
-		$where = array('id_user' => $id);
+		$where = array('peserta' => $id);
 		// mengambil data dari database sesuai id
-		$data['user'] = $this->m_data->edit_data($where,'tbl_user')->row();
+		$data['peserta'] = $this->m_data->edit_data($where,'peserta')->row();
 		$this->load->view('layout/v_header');
 		$this->load->view('layout/v_navbar');
 		$this->load->view('layout/v_sidebar');
-		$this->load->view('layout/v_user_edit',$data);
+		$this->load->view('layout/v_peserta_edit',$data);
 		$this->load->view('layout/v_footer');
 	}
 

@@ -8,12 +8,13 @@
             <h1>Data Peserta Kursus</h1>
           </div>
           <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <ol class="breadcrumb float-sm-right"> 
+              <li class="breadcrumb-item"><a href="<?php echo base_url('home');?>">Home</a></li>
               <li class="breadcrumb-item active">Data Peserta Kursus</li>
             </ol>
           </div>
         </div>
+        <a href="<?php echo base_url('Peserta/peserta_tambah');?>" class="btn btn-primary"><i class="fas fa-plus-square"></i> Tambah</a> 
       </div><!-- /.container-fluid -->
     </section>
     <section class="content">
@@ -41,36 +42,22 @@
                     <td>Desa Tlahab</td>
                     <td>Laki-Laki</td>
                     <td>Jambi<br>
-                    <small>20004-05-07</small>
+                    <small>20004-05-07</small> <a href="<?php echo base_url('Peserta/peserta_tambah');?>" class="btn btn-danger d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Edit</a></td>
                     </td>
+                    
                   </tr>
                   <tr>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 5.0
-                    </td>
-                    <td>Win 95+</td>
-                    <td>5</td>
+                    <td>Dilan</td>
+                    <td>Desa Tlahab</td>
+                    <td>Laki-Laki</td>
+                    <td>Jambi<br>
+                    <small>20004-05-07</small> <a href="<?php echo base_url('Peserta/peserta_tambah');?>" class="btn btn-danger d-none d-md-block pull-right ms-3 hidden-xs hidden-sm waves-effect waves-light text-white">Edit</a></td>
+                    </td>                                                                                 
+                    
                   </tr>
-                  <tr>
-                    <td>Trident</td>
-                    <td>Internet
-                      Explorer 5.5
-                    </td>
-                    <td>Win 95+</td>
-                    <td>5.5</td>
-                  </tr>
-                  </tbody>
-                  <tfoot>
-                  <tr>
-                    <th>Rendering engine</th>
-                    <th>Browser</th>
-                    <th>Platform(s)</th>
-                    <th>Engine version</th>
-                  </tr>
-                  </tfoot>
                 </table>
               </div>
               <!-- /.card-body -->
             </div>
             <!-- /.card -->
+            
